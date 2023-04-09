@@ -1,0 +1,16 @@
+.TopSellers {
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(251px, 4fr));
+}
+.Top {
+  margin-top: 100px;
+}
+.shopnowbt {
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 0;
+  background-color: #024e82;
+}

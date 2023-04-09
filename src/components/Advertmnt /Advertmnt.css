@@ -1,0 +1,9 @@
+.Advertmnt {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: aliceblue;
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(251px, 4fr));
+}

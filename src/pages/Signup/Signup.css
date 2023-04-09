@@ -1,0 +1,79 @@
+.main {
+  display: flex;
+
+  align-items: center;
+  /* justify-content: center; */
+  height: 100vh;
+  background-color: white;
+  justify-content: space-around;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+form input {
+  background-color: #e8f0fe; /* set the background color to a light gray */
+}
+
+.signuplogo img {
+  max-width: 100%;
+  height: auto;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+.loginButton {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.sinupNow {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 28px;
+  color: #024e82;
+  border: 2px solid #024e82;
+
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  form {
+    padding: 10px;
+    max-width: none;
+    width: 100%;
+  }
+  .signuplogo {
+    display: none;
+  }
+  h4 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  label {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .pswd .icon {
+    font-size: 24px;
+  }
+  input[type="email"],
+  input[type="password"],
+  .loginButton,
+  .sinupNow {
+    font-size: 14px;
+    padding: 8px;
+    margin-top: 10px;
+  }
+  .hror span {
+    font-size: 10px;
+  }
+}

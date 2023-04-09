@@ -1,0 +1,10 @@
+.AdvCard {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.AdBt {
+  width: 20%;
+  background-color: aliceblue;
+  color: black;
+}
