@@ -1,20 +1,20 @@
 export const productDetails = [
   {
-    ImageOne: "/images/4.jpg",
+    ImageOne: "/images/1.jpg",
     Category: "men",
-    Name: "Puma",
-    Price: "1000",
+    Name: "Adidas",
+    Price: "100",
     Quantity: "26",
-    dataId: "1",
+    dataId: "7",
     para: "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
   },
   {
-    ImageOne: "/images/6.jpg",
+    ImageOne: "/images/2.jpg",
     Category: "men",
-    Name: "Puma",
-    Price: "2500",
+    Name: "Nike",
+    Price: "25000",
     Quantity: "204",
-    dataId: "2",
+    dataId: "8",
     para: "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
   },
   {
