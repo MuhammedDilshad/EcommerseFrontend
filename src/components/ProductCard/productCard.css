@@ -8,3 +8,7 @@
 /* .grp {
   width: 300px;
 } */
+.imgs {
+  justify-self: center;
+  align-self: center;
+}

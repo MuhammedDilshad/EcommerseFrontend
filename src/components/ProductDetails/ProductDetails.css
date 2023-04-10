@@ -1,6 +1,9 @@
 .singleImge {
-  max-width: 100%;
-  height: auto;
+  width: 80%;
+  height: 80%;
+}
+.secOne {
+  padding: 0;
 }
 
 .details {

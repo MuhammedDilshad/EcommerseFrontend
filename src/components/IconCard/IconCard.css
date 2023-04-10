@@ -1,3 +1,7 @@
 .IconCard {
   display: flex;
+  gap: 20px;
+}
+.iconContent {
+  padding-left: 40px;
 }

@@ -2,7 +2,6 @@ import React from "react";
 import "./IconCard.css";
 
 function IconCard(props) {
-  console.log(props.value.iconOne);
   return (
     <div>
       <div className="IconCard">
@@ -10,7 +9,7 @@ function IconCard(props) {
         <div>{props.value.Name}</div>
       </div>
 
-      <p>{props.value.content}</p>
+      <small className="iconContent">{props.value.content}</small>
     </div>
   );
 }

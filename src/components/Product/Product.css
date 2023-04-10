@@ -1,9 +1,15 @@
 .BCard {
   gap: 30px;
+  justify-items: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(251px, 4fr));
 }
 .Prodct {
   margin-left: 5%;
   margin-right: 5%;
+}
+.imgs {
+  /* justify-self: center;
+  align-self: center; */
+  width: auto;
 }
