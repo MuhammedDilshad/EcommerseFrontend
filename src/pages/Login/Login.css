@@ -68,7 +68,6 @@ input[type="password"],
   margin-top: 16px;
   color: #f4f7f8;
   font-size: 37px;
-  /* background: #024e82; */
   background-color: #024e82;
 }
 
@@ -107,8 +106,7 @@ input[type="password"],
   border-radius: 0;
   width: 100%;
 }
-.loginlogo {
-}
+
 @media screen and (max-width: 768px) {
   form {
     padding: 10px;
@@ -139,15 +137,5 @@ input[type="password"],
   }
   .hror span {
     font-size: 10px;
-  }
-}
-@media screen and (max-width: 768px) {
-  form {
-    /* max-width: none;
-    width: 100%; */
-  }
-
-  .loginlogo {
-    /* display: none; */
   }
 }
