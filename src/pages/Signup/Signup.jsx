@@ -23,7 +23,7 @@ function Signup() {
   const navigate = useNavigate();
 
   const schema = Yup.object().shape({
-    email: Yup.string().email().required(),
+    email: Yup.string().email().required("Please enter your Email"),
     password: Yup.string().min(5).required(),
     mobile: Yup.string().min(10).required(),
     address: Yup.string().min(4).required(),
@@ -59,6 +59,8 @@ function Signup() {
               />
               <HiOutlineMail className="icon" />
             </div>
+            {error ? <small style={{ color: "red" }}>{error[1]}</small> : null}
+
             <label htmlFor="">Password</label>
             <div className="pswd">
               <input
@@ -82,6 +84,9 @@ function Signup() {
               />
               <FiSmartphone className="icon" />
             </div>
+            {error ? <small style={{ color: "red" }}>{error[0]}</small> : null}
+            {error ? <small style={{ color: "red" }}>{error[1]}</small> : null}
+
             <label htmlFor="">Shipping Address</label>
             <div className="pswd">
               <input
@@ -93,9 +98,10 @@ function Signup() {
               />
               <BiCurrentLocation className="icon" />
             </div>
+            {error ? <small style={{ color: "red" }}>{error[2]}</small> : null}
+            {error ? <small style={{ color: "red" }}>{error[3]}</small> : null}
 
             <button className="sinupNow">Signup Now</button>
-            {error ? <small style={{ color: "red" }}>{error[0]}</small> : null}
             <div class="hror">
               <hr />
               <span>or</span>
