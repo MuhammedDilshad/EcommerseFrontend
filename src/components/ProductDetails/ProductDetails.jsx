@@ -19,9 +19,7 @@ const ProductDetails = ({ id }) => {
   const handleChange = (event) => {
     setAge(event.target.value);
   };
-  console.log(id, "......id");
   const data = productDetails.find((item) => item?.dataId === id);
-  console.log(data, "....data");
 
   return (
     <div>

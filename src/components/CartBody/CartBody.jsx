@@ -22,7 +22,8 @@ const CartBody = (props) => {
   const [count, setCount] = useState(1);
   const [open, setOpen] = React.useState(false);
 
-  const data = productDetails.find((id) => id === id);
+  const data = productDetails.find((item) => item?.dataId === id);
+
   const val = parseInt(data.Price);
   const [price, setPrice] = useState(val);
   const quantity = parseInt(data.Quantity);
